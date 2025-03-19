@@ -1,50 +1,72 @@
-# Welcome to your Expo app 👋
+# 📱 Estudos em Desenvolvimento Mobile com React Native
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+Este repositório contém anotações, exercícios e projetos desenvolvidos durante meus estudos em desenvolvimento mobile utilizando React Native. Aqui, organizo os principais conceitos, práticas recomendadas e experimentos práticos para aprimorar minhas habilidades na criação de aplicativos para dispositivos móveis.
 
-## Get started
+## 🚀 Tecnologias Utilizadas
+- React Native
+- Expo
+- TypeScript
 
-1. Install dependencies
+## 📂 Estrutura do Repositório
 
-   ```bash
-   npm install
-   ```
-
-2. Start the app
-
-   ```bash
-    npx expo start
-   ```
-
-In the output, you'll find options to open the app in a
-
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
-
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
-
-```bash
-npm run reset-project
+```md
+/react-native-studies
+│── src/
+│   ├── components/    # Componentes reutilizáveis
+│   ├── screens/       # Telas do aplicativo
+│   ├── services/      # Consumo de APIs
+│   ├── hooks/         # Hooks customizados
+│   ├── context/       # Context API
+│   ├── assets/        # Imagens, ícones, fontes
+│   ├── utils/         # Funções utilitárias
+│   └── navigation/    # Configuração de rotas
+│── .gitignore
+│── app.json
+│── babel.config.js
+│── package.json
+│── tsconfig.json
+│── README.md
 ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+## 📌 Tópicos de Estudo
+- 🔹 Configuração do ambiente de desenvolvimento
+- 🔹 Criando e gerenciando componentes
+- 🔹 Hooks essenciais: useState, useEffect, useContext
+- 🔹 Gerenciamento de estados globais
+- 🔹 Navegação entre telas
+- 🔹 Requisições HTTP com Axios
+- 🔹 Armazenamento local com AsyncStorage
+- 🔹 Autenticação de usuários (Firebase, JWT, etc.)
+- 🔹 Integração com APIs externas
+- 🔹 Publicação de aplicativos na Play Store/App Store
 
-## Learn more
+## 🎯 Projetos no Repositório
+- [ ] **Todo App** - Gerenciamento de tarefas com AsyncStorage
+- [ ] **Auth App** - Sistema de login e cadastro com Firebase
+- [ ] **Weather App** - Consulta de previsão do tempo via API externa
+- [ ] **E-commerce App** - Carrinho de compras e pagamento online
+- [ ] **Chat App** - Mensagens em tempo real com WebSockets
 
-To learn more about developing your project with Expo, look at the following resources:
+## 📖 Como Usar
+1. Clone o repositório:
+   ```sh
+   git clone https://github.com/seu-usuario/react-native-studies.git
+   ```
+2. Instale as dependências:
+   ```sh
+   cd react-native-studies
+   npm install  # ou yarn install
+   ```
+3. Inicie o projeto:
+   ```sh
+   npm start  # ou expo start
+   ```
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+## 📌 Contribuição
+Sinta-se à vontade para explorar, sugerir melhorias e contribuir com novas ideias!
 
-## Join the community
+## 📜 Licença
+Este repositório é mantido para fins educacionais e de aprendizado. Nenhuma restrição de uso aplicada.
 
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+---
+Feito com ❤️ para aprimorar conhecimentos em **React Native**! 🚀
